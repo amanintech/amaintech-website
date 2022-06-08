@@ -16,8 +16,6 @@ export default siteConfig({
 
   // open graph metadata (optional)
   description: 'Tech X ( Entreprenuer + Stack Advisor ) + Mentor / Speaker  | CoFounder & CTO twimbit  ',
-  socialImageTitle: 'amanin.tech',
-  socialImageSubtitle: 'Hey from Aman! 👋',
 
   // social usernames (optional)
   twitter: 'amanintech',
