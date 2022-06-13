@@ -59,7 +59,7 @@ export default siteConfig({
      },
 {
        title: 'Expore',
-       pageId: 'c28c43ee60264f008a0247c3ccd82d4e'
+       pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
      }]
      
 })
