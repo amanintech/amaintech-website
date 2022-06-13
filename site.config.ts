@@ -15,10 +15,8 @@ export default siteConfig({
 
 
   // open graph metadata (optional)
-  description: 'Tech X ( Entreprenuer + Stack Advisor ) + Mentor / Speaker  | CoFounder & CTO twimbit  ',
-  socialImageTitle: 'amanin.tech',
-  socialImageSubtitle: 'Hey from Aman! 👋',
-
+  description: 'Tech X ( Entreprenuer + Stack Advisor ) + Mentor / Speaker  | CoFounder & CTO twimbit  '
+  
   // social usernames (optional)
   twitter: 'amanintech',
   github: 'amanintech',
@@ -57,11 +55,7 @@ export default siteConfig({
    navigationLinks: [
     {
        title: 'About',
-       pageId: '9c11186453734777b807cce609a79f45'
-     },
-     {
-       title: 'Get in touch',
-  ]     pageId: '8d4b1368360a41908918802966c097a9'
-     }
-   ]
+       pageId: '2c5ddf687f8547e3af8955120604e3e3'
+     }]
+     
 })
