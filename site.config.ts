@@ -56,6 +56,10 @@ export default siteConfig({
     {
        title: 'About',
        pageId: '2c5ddf687f8547e3af8955120604e3e3'
+     },
+{
+       title: 'Expore',
+       pageId: 'c28c43ee60264f008a0247c3ccd82d4e'
      }]
      
 })
