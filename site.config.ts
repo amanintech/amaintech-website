@@ -15,7 +15,7 @@ export default siteConfig({
 
 
   // open graph metadata (optional)
-  description: 'Tech X ( Entreprenuer + Stack Advisor ) + Mentor / Speaker  | CoFounder & CTO twimbit  '
+  description: '24 Y.O. Product builder, Public speaker and mentor.', 
   
   // social usernames (optional)
   twitter: 'amanintech',
