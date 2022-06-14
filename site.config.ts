@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Hey,this is Aman 👋',
-  domain: process.env.NEXT_PUBLIC_DOMAIN,
+  domain: process.env.NEXT_PUBLIC_DOMAIN || 'amanin.tech',
   author: 'Aman Sharma',
 
 
