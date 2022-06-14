@@ -9,13 +9,13 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Aman Sharma',
-  domain: process.env.NEXT_PUBLIC_DOMAIN || 'amanin.tech',
+  name: 'Hey,this is Aman 👋',
+  domain: process.env.NEXT_PUBLIC_DOMAIN,
   author: 'Aman Sharma',
 
 
   // open graph metadata (optional)
-  description: '24 Y.O. Product builder, Public speaker and mentor.', 
+  description: '24 Y.O. Product builder, Tech speaker and Entrepreneur. ', 
   
   // social usernames (optional)
   twitter: 'amanintech',
@@ -26,7 +26,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F50b08723-06fe-4b85-b629-dcd79ad2f003%2F1638644413393.jpg?table=block&id=919c6b7b-02bf-45bb-80e4-714e27143848&cache=v2',
+  defaultPageIcon: 'null',
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
