@@ -21,7 +21,7 @@ export default siteConfig({
   twitter: 'amanintech',
   github: 'amanintech',
   linkedin: 'amanintech',
-  newsletter: 'https://amanintech.substack.com/', // optional newsletter URL
+  newsletter: 'http://newsletter.amanin.tech/', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
