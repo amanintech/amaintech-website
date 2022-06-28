@@ -21,7 +21,7 @@ export default siteConfig({
   twitter: 'amanintech',
   github: 'amanintech',
   linkedin: 'amanintech',
-  newsletter: 'http://newsletter.amanin.tech/', // optional newsletter URL
+  newsletter: 'http://newsletter.amanin.tech', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -54,11 +54,11 @@ export default siteConfig({
    navigationStyle: 'custom',
    navigationLinks: [
     {
-       title: 'About',
+       title: '👦🏻 About',
        pageId: '2c5ddf687f8547e3af8955120604e3e3'
      },
 {
-       title: 'Explore',
+       title: '🧭 Explore',
        pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
      }]
      
