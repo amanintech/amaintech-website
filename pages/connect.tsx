@@ -1,3 +1,3 @@
 import { contact } from 'components'
 
-export default Page404
+export default Connect
