@@ -12,11 +12,11 @@ export default siteConfig({
   name: 'Hey,this is Aman 👋',
   domain: process.env.NEXT_PUBLIC_DOMAIN || 'amanin.tech',
   author: 'Aman Sharma',
-
+  booking: 'https://amansharma-amanin.zohobookings.in/portal-embed#/customer/call',
 
   // open graph metadata (optional)
-  description: '24 Y.O. Product builder, Tech speaker and Entrepreneur. ', 
-  
+  description: '24 Y.O. Product builder, Tech speaker and Entrepreneur. ',
+
   // social usernames (optional)
   twitter: 'amanintech',
   github: 'amanintech',
@@ -61,5 +61,5 @@ export default siteConfig({
        title: '🧭 Explore',
        pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
      }]
-     
+
 })
