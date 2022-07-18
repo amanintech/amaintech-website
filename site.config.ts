@@ -62,7 +62,7 @@ export default siteConfig({
        pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
      },
 {
-       title: '📞 Call',
+       title: '📞 Connect',
        pageId: 'a13f0d8b3898412a947a24c08d7f5139'
      }]
 
