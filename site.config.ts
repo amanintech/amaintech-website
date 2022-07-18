@@ -15,8 +15,8 @@ export default siteConfig({
 
 
   // open graph metadata (optional)
-  description: '24 Y.O. Product builder, Tech speaker and Entrepreneur. ', 
-  
+  description: '24 Y.O. Product builder, Tech speaker and Entrepreneur. ',
+
   // social usernames (optional)
   twitter: 'amanintech',
   github: 'amanintech',
@@ -54,12 +54,16 @@ export default siteConfig({
    navigationStyle: 'custom',
    navigationLinks: [
     {
-       title: '👦🏻 About',
+       title: '👦🏻 Bio',
        pageId: '2c5ddf687f8547e3af8955120604e3e3'
      },
 {
        title: '🧭 Explore',
        pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
+     },
+{
+       title: '📞 Call',
+       pageId: 'a13f0d8b3898412a947a24c08d7f5139'
      }]
-     
+
 })
