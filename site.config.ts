@@ -54,15 +54,15 @@ export default siteConfig({
    navigationStyle: 'custom',
    navigationLinks: [
     {
-       title: '👦🏻 Bio',
+       title: '👦🏻Bio',
        pageId: '2c5ddf687f8547e3af8955120604e3e3'
      },
 {
-       title: '🧭 Explore',
+       title: '🧭Work',
        pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
      },
 {
-       title: '📞 Connect',
+       title: '📞Call',
        pageId: 'a13f0d8b3898412a947a24c08d7f5139'
      }]
 
