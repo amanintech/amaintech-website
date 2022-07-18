@@ -13,7 +13,7 @@ export const Contact: React.FC<types.PageProps> = ({ site }) => {
 
       <iframe className="contact-iframe" frameBorder="0"
               height="100%"
-              scrolling="auto" src='https://amansharma-amanin.zohobookings.in/portal-embed#/customer/call'> </iframe>
+              scrolling="auto" src='https://amansharma-amanin.zohobookings.in/portal-embed#/customer/-'> </iframe>
 
   </main>
       </div>
