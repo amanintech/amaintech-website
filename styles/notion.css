@@ -11,6 +11,20 @@
   --notion-max-width: 720px;
   --notion-header-height: 54px;
 }
+.contact-main{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: none;
+}
+
+.contact-container {
+height: 100vh;
+}
+
+.contact-iframe{
+width: 100%;
+}
 
 .notion-page {
   padding-bottom: calc(max(5vh, 32px)) !important;

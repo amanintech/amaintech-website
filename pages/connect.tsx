@@ -1,3 +1,3 @@
-import { contact } from 'components'
+import {Contact} from 'components'
 
-export default Connect
+export default Contact

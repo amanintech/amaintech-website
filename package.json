@@ -7,7 +7,7 @@
   "repository": "transitive-bullshit/nextjs-notion-starter-kit",
   "license": "MIT",
   "engines": {
-    "node": "14.19.3"
+    "node": "~14.19.3"
   },
   "scripts": {
     "dev": "next dev",
@@ -51,7 +51,8 @@
     "react-notion-x": "^6.12.7",
     "react-tweet-embed": "^2.0.0",
     "react-use": "^17.3.2",
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "sharp": "^0.30.7"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.1.0",
