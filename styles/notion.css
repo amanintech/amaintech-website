@@ -16,6 +16,11 @@
   padding: 0;
   height: 100%;
   border: none;
+  overflow: hidden;
+}
+
+.notion-gallery-grid-size-small {
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)) !important;
 }
 
 .contact-container {
