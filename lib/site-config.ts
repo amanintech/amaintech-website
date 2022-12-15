@@ -9,7 +9,6 @@ export interface SiteConfig {
   author: string
   description?: string
   language?: string
-  booking?: string
 
   twitter?: string
   github?: string

@@ -15,8 +15,6 @@ export interface PageProps {
   recordMap?: ExtendedRecordMap
   pageId?: string
   error?: PageError
-  tagsPage?: boolean
-  propertyToFilterName?: string | string
 }
 
 export interface Params extends ParsedUrlQuery {
