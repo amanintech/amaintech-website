@@ -40,11 +40,11 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
+   pageUrlOverrides: {
+     '/call': 'a13f0d8b3898412a947a24c08d7f5139',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+   },
+  //pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
@@ -60,7 +60,7 @@ export default siteConfig({
        pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
      },
 {
-       title: '📞 Call',
+       title: '📞 Connect',
        pageId: 'a13f0d8b3898412a947a24c08d7f5139'
      }]
 
