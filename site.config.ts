@@ -56,7 +56,7 @@ export default siteConfig({
        pageId: '4c518cd93201494cbe73a990127386e8'
      },
 {
-       title: '🧭 Stuff',
+       title: '🧭 Life',
        pageId: 'b6fcdafea54d4bc1ad9c03bea0aef362'
      },
 {
