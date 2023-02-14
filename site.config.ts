@@ -13,7 +13,7 @@ export default siteConfig({
   domain: process.env.NEXT_PUBLIC_DOMAIN || 'amanin.tech',
   author: 'Aman Sharma',
   // open graph metadata (optional)
-  description: '24 Y.O. Product builder, Tech speaker and Entrepreneur. ',
+  description: '🚀 SaaS builder, Tech speaker and Entrepreneur',
 
   // social usernames (optional)
   twitter: 'amanintech',
