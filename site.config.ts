@@ -52,11 +52,11 @@ export default siteConfig({
    navigationLinks: [
     {
        title: '🛠 Work',
-       pageId: '4c518cd93201494cbe73a990127386e8'
+       pageId: 'b4a0d2616e1c47468203aea9638a702c'
      },
 {
        title: '🧭 Life',
-       pageId: 'c28c43ee60264f008a0247c3ccd82d4e'
+       pageId: '0468030b9189406a9dc904ad7b68c78f'
      },
 {
        title: '📞 Connect',
