@@ -5,7 +5,17 @@
 .dark-mode {
   --bg-color: #000000;
 }
+.notion-title {
+  text-align: left;
+}
 
+.notion-page-icon-hero
+{
+  left: 0;
+}
+.notion-page-icon-hero.notion-page-icon-image{
+  margin-left: 0;
+}
 a {
   color: inherit;
   text-decoration: none;

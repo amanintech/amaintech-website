@@ -196,7 +196,7 @@ width: 100%;
 
 .notion-title {
   display: block;
-  text-align: center;
+  text-align: left;
 }
 
 .notion-collection-row {
