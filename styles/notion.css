@@ -11,6 +11,7 @@
   --notion-max-width: 720px;
   --notion-header-height: 54px;
 }
+
 .contact-main{
   margin: 0;
   padding: 0;
@@ -418,7 +419,7 @@ width: 100%;
 /* Workaround for Firefox not supporting backdrop-filter yet */
 @-moz-document url-prefix() {
   .dark-mode .notion-header {
-    background: hsla(203, 8%, 20%, 0.8);
+    background: hsl(0, 0%, 0%);
   }
 }
 

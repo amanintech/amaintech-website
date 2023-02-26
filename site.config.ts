@@ -56,7 +56,7 @@ export default siteConfig({
      },
 {
        title: '🧭 Life',
-       pageId: '0468030b9189406a9dc904ad7b68c78f'
+       pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
      },
 {
        title: '📞 Connect',
