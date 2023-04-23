@@ -8,7 +8,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Hey,this is Aman 👋',
+  name: 'Aman Sharma',
   domain: process.env.NEXT_PUBLIC_DOMAIN || 'amanin.tech',
   author: 'Aman Sharma',
   // open graph metadata (optional)
