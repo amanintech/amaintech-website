@@ -55,11 +55,11 @@ export default siteConfig({
        pageId: 'b4a0d2616e1c47468203aea9638a702c'
      },
 {
-       title: '🧭 Browse',
+       title: '🧭 Menu',
        pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
      },
 {
-       title: '📞 Meet',
+       title: '🗓️ Cal',
        pageId: 'a13f0d8b3898412a947a24c08d7f5139'
      }]
 
