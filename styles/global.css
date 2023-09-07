@@ -2,10 +2,8 @@
   box-sizing: border-box;
 }
 
-
-body{
-
-  --bg-color: linear-gradient( 338deg, rgb(248 255 246) 0%, rgb(252 245 235) 9%, #fcfdf0 85%, #e9defa 100%);
+.dark-mode{
+  --bg-color: #000000;
 }
 
 .notion-title {
