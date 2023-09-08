@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.dark-mode{
+body.dark-mode{
   --bg-color: #000000;
 }
 
