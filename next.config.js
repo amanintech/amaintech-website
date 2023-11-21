@@ -1,9 +1,30 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
-})
+});
 
 module.exports = withBundleAnalyzer({
+  async rewrites() {
+    return {
+      beforeFiles: [
+        {
+          source: '/',
+          destination: 'https://site.lamatic.ai/', // Your desired destination URL
+        },
+        {
+          source: '/assets/:path*',
+          destination: 'https://site.lamatic.ai/assets/:path*', // Rewrite for the assets
+        },
+        // ... other rewrites you want to apply before file system check
+      ],
+      afterFiles: [
+        // ... rewrites that should occur after checking the file system
+      ],
+      fallback: [
+        // ... rewrites that are applied if no routes match
+      ]
+    }
+  },
   staticPageGenerationTimeout: 300,
   images: {
     domains: [
@@ -19,4 +40,5 @@ module.exports = withBundleAnalyzer({
     dangerouslyAllowSVG: true,
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;"
   }
-})
+});
+
