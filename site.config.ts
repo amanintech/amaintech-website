@@ -49,24 +49,24 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'custom',
-   navigationLinks: [
-    {
-    title: 'About',
-    pageId: '/#about'
-  },
-    {
-       title: 'Pricing',
-       pageId: '/#pricing'
-     },{
-       title: 'Features',
-       pageId: '/features'
-     },
+  navigationStyle: 'default',
+  //  navigationLinks: [
+  //   {
+  //   title: 'About',
+  //   pageId: '/#about'
+  // },
+  //   {
+  //      title: 'Pricing',
+  //      pageId: '/#pricing'
+  //    },{
+  //      title: 'Features',
+  //      pageId: '/features'
+  //    },
 
-     {
-            title: 'FAQ',
-            pageId: '/#FAQ'
-          }]
+  //    {
+  //           title: 'FAQ',
+  //           pageId: '/#FAQ'
+  //         }]
 
 })
 
