@@ -2,28 +2,30 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'e43926dc27ec4c4895fe222e8e8a2325',
+  rootNotionPageId: 'd8f34c3e01814a809c6a036c500a6d3b',
+
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Aman Sharma',
-  domain: process.env.NEXT_PUBLIC_DOMAIN || 'amanin.tech',
-  author: 'Aman Sharma',
+  name: 'Lamatic.ai | Fully managed GenAI stack to build reliable apps with LLM',
+  domain: 'Lamatic.ai',
+  author: '',
+
   // open graph metadata (optional)
-  description: '🚀 SaaS builder, Tech speaker and Entrepreneur',
+  description: 'Fully managed GenAI stack to build reliable apps with LLM',
 
   // social usernames (optional)
-  twitter: 'amanintech',
-  github: 'amanintech',
-  linkedin: 'amanintech',
-  newsletter: 'https://buildandscale.beehiiv.com/', // optional newsletter URL
+  twitter: '',
+  github: '',
+  linkedin: '',
+  // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
+  defaultPageIcon: 'https://lamatic.ai/assets/images/favicon.png?v=21ed87d4',
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
@@ -39,28 +41,29 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-   pageUrlOverrides: {
-     '/call': 'a13f0d8b3898412a947a24c08d7f5139',
+  // pageUrlOverrides: {
+  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
   //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-   },
-  //pageUrlOverrides: null,
+  // }
+  pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  //navigationStyle: 'default'
-   navigationStyle: 'custom',
+  navigationStyle: 'custom',
    navigationLinks: [
     {
-       title: '🛠 Work',
-       pageId: 'b4a0d2616e1c47468203aea9638a702c'
+    title: '🎯 Goal',
+    pageId: 'd7496259ebde4828963558c4106a1b3d'
+  },
+    {
+       title: '🏗 Project',
+       pageId: 'b46bf64bdd9b4ff3a1eca47f80e714aa'
      },
-{
-       title: '🧭 Menu',
-       pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
-     },
-{
-       title: '🗓️ Cal',
-       pageId: 'a13f0d8b3898412a947a24c08d7f5139'
-     }]
+
+     {
+            title: '🤝 Join',
+            pageId: 'c79115a4816047469198048605b65e27'
+          }]
 
 })
+

@@ -36,6 +36,10 @@ export default class MyDocument extends Document {
                 __html: `
 /** Inlined version of noflash.js from use-dark-mode */
 ;(function () {
+  document.body.classList.remove('dark-mode')
+  document.body.classList.add('light-mode')
+  localStorage.setItem('darkMode', 'false')
+  
   var storageKey = 'darkMode'
   var classNameDark = 'dark-mode'
   var classNameLight = 'light-mode'
