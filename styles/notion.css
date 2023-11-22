@@ -474,7 +474,7 @@ width: 100%;
   display:none;
 }
 .notion-collection-group-title > ::marker{
-  color:white;
+  color: white!important;
 }
 .notion-block-dfc7f709ae3e42c69292f6543d5586f0 .notion-table-view {
   padding-left: 12px !important;

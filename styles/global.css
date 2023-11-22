@@ -15,11 +15,46 @@
 .notion-table-view{
   min-width: fit-content;
 }
+summary.notion-collection-group-title {
+width: fit-content;
+}
 
 .notion-title {
   text-align: left;
 }
 
+.notion-table-row {
+border-bottom: none;
+width: fit-content;
+}
+
+.notion-table{
+  overflow: hidden;
+  width: fit-content!important;
+}
+
+.notion-table-cell-text{
+  text-align: center;
+}
+.notion-table-view{
+  min-width: fit-content;
+  margin:0 auto;
+}
+.notion-table-view-header-cell-inner{
+justify-content: center;
+}
+.notion-collection-group{
+  width:fit-content;
+  margin:0 auto;
+}
+
+.notion-table-header{
+  min-width: fit-content;
+}
+
+.notion-table-body{
+  min-width: fit-content;
+}
 .notion-property-select-item{
   font-size: xxx-large;
   height: fit-content;
