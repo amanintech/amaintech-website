@@ -6,14 +6,26 @@
   --bg-color: black;
 }
 
+.notion-collection-header-title{
+  display: none;
+}
+.notion-page-icon-inline.notion-page-icon-image{
+  display: none;
+}
+.notion-table-view{
+  min-width: fit-content;
+}
+
 .notion-title {
   text-align: left;
 }
 
-.notion-page-icon-hero
-{
-  left: 0;
+.notion-property-select-item{
+  font-size: xxx-large;
+  height: fit-content;
+  margin-top: 70px;
 }
+
 .notion-page-icon-hero.notion-page-icon-image{
   margin-left: 0;
 }
