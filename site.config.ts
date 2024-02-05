@@ -18,7 +18,7 @@ export default siteConfig({
   twitter: 'amanintech',
   github: 'amanintech',
   linkedin: 'amanintech',
-  newsletter: 'https://buildandscale.beehiiv.com/', // optional newsletter URL
+  newsletter: 'https://buildandscale.amanin.tech/', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
