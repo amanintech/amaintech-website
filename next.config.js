@@ -9,12 +9,15 @@ module.exports = withBundleAnalyzer({
       beforeFiles: [
         {
           source: '/',
-          destination: 'https://site.lamatic.ai/', // Your desired destination URL
+          destination: 'https://get.lamatic.ai/', // Your desired destination URL
         },
         {
           source: '/assets/:path*',
-          destination: 'https://site.lamatic.ai/assets/:path*', // Rewrite for the assets
+          destination: 'https://get.lamatic.ai/assets/:path*', // Rewrite for the assets
         },
+        { source: '/docs/:path*',
+          destination: 'https://docs.lamatic.ai/docs/:path*', // Rewrite for the assets
+        }
         // ... other rewrites you want to apply before file system check
       ],
       afterFiles: [
