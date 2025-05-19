@@ -51,15 +51,15 @@ export default siteConfig({
    navigationStyle: 'custom',
    navigationLinks: [
     {
-       title: '🛠 Work',
+       title: '🛠 Projects',
        pageId: 'b4a0d2616e1c47468203aea9638a702c'
      },
 {
-       title: '🧭 Menu',
+       title: '🧭 Interest',
        pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
      },
 {
-       title: '🗓️ Cal',
+       title: '🗓️ Meet',
        pageId: 'a13f0d8b3898412a947a24c08d7f5139'
      }]
 
