@@ -51,11 +51,11 @@ export default siteConfig({
    navigationStyle: 'custom',
    navigationLinks: [
     {
-       title: '🛠 Projects',
-       pageId: 'b4a0d2616e1c47468203aea9638a702c'
+       title: '👋🏻 About Me',
+       pageId: '2c5ddf687f8547e3af8955120604e3e3'
      },
 {
-       title: '🧭 Interest',
+       title: '🧭 Resources',
        pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
      },
 {
