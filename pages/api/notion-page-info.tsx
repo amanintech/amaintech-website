@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 
 import got from 'got'
-import { PageBlock } from 'notion-types'
+import { Block, PageBlock } from 'notion-types'
 import {
   getBlockIcon,
   getBlockTitle,
@@ -28,7 +28,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   const recordMap = await notion.getPage(pageId)
 
   const keys = Object.keys(recordMap?.block || {})
-  const block = recordMap?.block?.[keys[0]]?.value
+  const block = recordMap?.block?.[keys[0]]?.value as Block | undefined
 
   if (!block) {
     throw new Error('Invalid recordMap for page')
@@ -127,7 +127,7 @@ async function isUrlReachable(url: string | null): Promise<boolean> {
   try {
     await got.head(url)
     return true
-  } catch (err) {
+  } catch {
     return false
   }
 }

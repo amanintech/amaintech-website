@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { NextRequest } from 'next/server'
 
-import { ImageResponse } from '@vercel/og'
+import { ImageResponse } from 'next/og'
 
 import { api, apiHost, rootNotionPageId } from '@/lib/config'
 import { NotionPageInfo } from '@/lib/types'
@@ -15,7 +15,7 @@ const interBoldFontP = fetch(
 ).then((res) => res.arrayBuffer())
 
 export const config = {
-  runtime: 'experimental-edge'
+  runtime: 'edge'
 }
 
 export default async function OGImage(req: NextRequest) {
