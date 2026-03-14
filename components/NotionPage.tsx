@@ -182,7 +182,11 @@ export const NotionPage: React.FC<types.PageProps> = ({
   }, [site, recordMap, lite])
 
   const keys = Object.keys(recordMap?.block || {})
-  const block = recordMap?.block?.[keys[0]]?.value
+  const blockEntry = recordMap?.block?.[keys[0]]?.value
+  const block =
+    blockEntry && 'type' in blockEntry
+      ? blockEntry
+      : (blockEntry as any)?.value
 
   // const isRootPage =
   //   parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
