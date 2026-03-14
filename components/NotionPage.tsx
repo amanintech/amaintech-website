@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 import cs from 'classnames'
-import { PageBlock } from 'notion-types'
+import { Block, PageBlock } from 'notion-types'
 import { formatDate, getBlockTitle, getPageProperty } from 'notion-utils'
 import BodyClassName from 'react-body-classname'
 import { NotionRenderer } from 'react-notion-x'
@@ -182,7 +182,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
   }, [site, recordMap, lite])
 
   const keys = Object.keys(recordMap?.block || {})
-  const block = recordMap?.block?.[keys[0]]?.value
+  const block = recordMap?.block?.[keys[0]]?.value as Block | undefined
 
   // const isRootPage =
   //   parsePageId(block?.id) === parsePageId(site?.rootNotionPageId)
@@ -222,8 +222,11 @@ export const NotionPage: React.FC<types.PageProps> = ({
   if (!config.isServer) {
     // add important objects to the window global for easy debugging
     const g = window as any
+    // eslint-disable-next-line react-hooks/immutability
     g.pageId = pageId
+    // eslint-disable-next-line react-hooks/immutability
     g.recordMap = recordMap
+    // eslint-disable-next-line react-hooks/immutability
     g.block = block
   }
 
