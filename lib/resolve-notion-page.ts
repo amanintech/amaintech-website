@@ -86,6 +86,7 @@ export async function resolveNotionPage(domain: string, rawPageId?: string) {
     recordMap = await getPage(pageId)
   }
 
-  const props = { site, recordMap, pageId }
+  const sanitizedSite = JSON.parse(JSON.stringify(site))
+  const props = { site: sanitizedSite, recordMap, pageId }
   return { ...props, ...(await acl.pageAcl(props)) }
 }

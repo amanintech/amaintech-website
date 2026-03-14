@@ -41,7 +41,8 @@ export default siteConfig({
   //
    pageUrlOverrides: {
      '/call': 'a13f0d8b3898412a947a24c08d7f5139',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+     '/talks': '0ea245aeb53949689184366b3f47b69b',
+     '/books': 'd09dde9d03ff4d7d85bab7d53d366b7c'
    },
   //pageUrlOverrides: null,
 
