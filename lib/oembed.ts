@@ -29,7 +29,7 @@ export const oembed = async ({
 
   const user = page.notion_user[Object.keys(page.notion_user)[0]]
     ?.value as User | undefined
-  const name = [user.given_name, user.family_name]
+  const name = [user?.given_name, user?.family_name]
     .filter(Boolean)
     .join(' ')
     .trim()
