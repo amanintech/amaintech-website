@@ -12,12 +12,18 @@ import {
 } from 'notion-utils'
 
 import * as libConfig from '@/lib/config'
-import interSemiBoldFont from '@/lib/fonts/inter-semibold'
 import { mapImageUrl } from '@/lib/map-image-url'
 import { notion } from '@/lib/notion-api'
 import { type NotionPageInfo, type PageError } from '@/lib/types'
 
 export const runtime = 'edge'
+
+// fetched from a CDN instead of bundled to keep this edge function under
+// Vercel's size limit (react-notion-x + notion-client/utils already eat
+// most of the budget)
+const interBoldFont = await fetch(
+  'https://fonts.gstatic.com/s/inter/v18/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZhrib2Bg-4.ttf'
+).then((res) => res.arrayBuffer())
 
 export default async function OGImage(
   req: NextApiRequest,
@@ -155,7 +161,7 @@ export default async function OGImage(
       fonts: [
         {
           name: 'Inter',
-          data: interSemiBoldFont,
+          data: interBoldFont,
           style: 'normal',
           weight: 700
         }
