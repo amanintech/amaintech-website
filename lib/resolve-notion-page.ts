@@ -1,7 +1,7 @@
 import { type ExtendedRecordMap } from 'notion-types'
 import { parsePageId } from 'notion-utils'
 
-import type { PageProps } from './types'
+import type { PageProps, Site } from './types'
 import * as acl from './acl'
 import { environment, pageUrlAdditions, pageUrlOverrides, site } from './config'
 import { db } from './db'
@@ -90,7 +90,7 @@ export async function resolveNotionPage(
     recordMap = await getPage(pageId)
   }
 
-  const sanitizedSite = JSON.parse(JSON.stringify(site))
+  const sanitizedSite = structuredClone(site) as Site
   const props: PageProps = { site: sanitizedSite, recordMap, pageId }
   return { ...props, ...(await acl.pageAcl(props)) }
 }

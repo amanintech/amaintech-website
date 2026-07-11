@@ -7,14 +7,14 @@ import 'react-notion-x/styles.css'
 // global styles shared across the entire site
 import 'styles/global.css'
 // this might be better for dark mode
- import 'prismjs/themes/prism-okaidia.css'
+import 'prismjs/themes/prism-okaidia.css'
 // global style overrides for notion
 import 'styles/notion.css'
-// global style overrides for prism theme (optional)
-//import 'styles/prism-theme.css'
-import { Analytics } from '@vercel/analytics/react';
 
 import type { AppProps } from 'next/app'
+// global style overrides for prism theme (optional)
+//import 'styles/prism-theme.css'
+import { Analytics } from '@vercel/analytics/react'
 import * as Fathom from 'fathom-client'
 import { useRouter } from 'next/router'
 import { posthog } from 'posthog-js'
@@ -67,6 +67,5 @@ export default function App({ Component, pageProps }: AppProps) {
       <Component {...pageProps} />
       <Analytics />
     </>
-  );
-
+  )
 }
