@@ -1,0 +1,3 @@
+{
+  "installCommand": "npx --yes pnpm@10.29.3 install"
+}
