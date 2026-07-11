@@ -39,29 +39,28 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-   pageUrlOverrides: {
-     '/call': 'a13f0d8b3898412a947a24c08d7f5139',
-     '/talks': '0ea245aeb53949689184366b3f47b69b',
-     '/books': 'd09dde9d03ff4d7d85bab7d53d366b7c'
-   },
+  pageUrlOverrides: {
+    '/call': 'a13f0d8b3898412a947a24c08d7f5139',
+    '/talks': '0ea245aeb53949689184366b3f47b69b',
+    '/books': 'd09dde9d03ff4d7d85bab7d53d366b7c'
+  },
   //pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
-  // important pages
-  //navigationStyle: 'default'
-   navigationStyle: 'custom',
-   navigationLinks: [
+  // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
+  navigationStyle: 'custom',
+  navigationLinks: [
     {
-       title: '👋🏻 About Me',
-       pageId: '2c5ddf687f8547e3af8955120604e3e3'
-     },
-{
-       title: '🧭 Resources',
-       pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
-     },
-{
-       title: '🗓️ Meet',
-       pageId: 'a13f0d8b3898412a947a24c08d7f5139'
-     }]
-
+      title: '👋🏻 About Me',
+      pageId: '2c5ddf687f8547e3af8955120604e3e3'
+    },
+    {
+      title: '🧭 Resources',
+      pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
+    },
+    {
+      title: '🗓️ Meet',
+      pageId: 'a13f0d8b3898412a947a24c08d7f5139'
+    }
+  ]
 })
