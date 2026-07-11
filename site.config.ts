@@ -47,21 +47,20 @@ export default siteConfig({
   //pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
-  // important pages
-  //navigationStyle: 'default'
-   navigationStyle: 'custom',
-   navigationLinks: [
+  // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
+  navigationStyle: 'custom',
+  navigationLinks: [
     {
-       title: '👋🏻 About Me',
-       pageId: '2c5ddf687f8547e3af8955120604e3e3'
-     },
-{
-       title: '🧭 Resources',
-       pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
-     },
-{
-       title: '🗓️ Meet',
-       pageId: 'a13f0d8b3898412a947a24c08d7f5139'
-     }]
-
+      title: '👋🏻 About Me',
+      pageId: '2c5ddf687f8547e3af8955120604e3e3'
+    },
+    {
+      title: '🧭 Resources',
+      pageId: 'a04f53e1ed404e60b44d60c3a52d8f2e'
+    },
+    {
+      title: '🗓️ Meet',
+      pageId: 'a13f0d8b3898412a947a24c08d7f5139'
+    }
+  ]
 })
